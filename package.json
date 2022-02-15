@@ -1,0 +1,17 @@
+{
+  "name": "node-module-example-bundle-to-browser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "build" : "browserify ./src/index.js -o dist/bundle.js"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "mathjs": "^10.1.1"
+  }
+}
